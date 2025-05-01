@@ -129,21 +129,21 @@
     }
     @keyframes bounce {
       0% {
-        width: 320px;
+        width: 395px;
       }
       50% {
-        width: 330px; /* Slight increase */
+        width: 400px; /* Slight increase */
       }
       75% {
-        width: 320px; /* Slight decrease */
+        width: 380px; /* Slight decrease */
       }
       100% {
-        width: 320px; /* Final position */
+        width: 395px; /* Final position */
       }
     }
     @keyframes bounce-close {
       0% {
-          width: 110px;
+          width: 130px;
       }
       80%{
         width: 120px;
@@ -152,7 +152,7 @@
         width: 120px; 
       }
       100% {
-        width: 100px; 
+        width: 120px; 
       }
     }
   }
