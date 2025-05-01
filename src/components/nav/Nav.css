@@ -90,6 +90,36 @@
       width: 120px; 
     }
   }
+  @media screen and (max-width: 576px){
+    @keyframes bounce {
+      0% {
+        width: 350px;
+      }
+      50% {
+        width: 360px; /* Slight increase */
+      }
+      75% {
+        width: 340px; /* Slight decrease */
+      }
+      100% {
+        width: 350px; /* Final position */
+      }
+    }
+    @keyframes bounce-close {
+      0% {
+          width: 110px;
+      }
+      80%{
+        width: 120px;
+      }
+      90% {
+        width: 120px; 
+      }
+      100% {
+        width: 100px; 
+      }
+    }
+  }
   @media screen and (max-width: 740px){
     @keyframes bounce {
       0% {
