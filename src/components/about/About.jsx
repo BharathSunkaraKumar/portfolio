@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css'
 function About() {
   return (
+    <>
     <div className='about-box wrapper'>
         <div className="about-container">
             <div className="about-left">
@@ -25,7 +26,34 @@ function About() {
                 </div>
             </div>
         </div>
+        
     </div>
+            <div className="tools wrapper">
+                <h1>Tools</h1>
+                <div className='bar'></div>
+            </div>
+            <div className="scroll-bar wrapper">
+                <div>
+                    <span>html</span>
+                    <span>css</span>
+                    <span>JavaScript</span>
+                    <span>react</span>
+                    <span>react routing</span>
+                    <span>formik</span>
+                    <span>redux toolkit</span>
+                </div>
+                <div>
+                    <span>html</span>
+                    <span>css</span>
+                    <span>JavaScript</span>
+                    <span>react</span>
+                    <span>react routing</span>
+                    <span>formik</span>
+                    <span>redux toolkit</span>
+                </div>
+            </div>
+
+    </>
   )
 }
 

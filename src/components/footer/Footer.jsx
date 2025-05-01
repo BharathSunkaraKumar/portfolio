@@ -14,30 +14,29 @@ function Footer() {
             
               <th>projects</th>
             
-              <th>let' connect</th>
+              <th>know more</th>
             </tr>
           </thead>
         <tbody>
           <tr>
             <td><Link to='/'>Home</Link></td>
             <td>project1</td>
-            <td>linkedin</td>
+            <td>github</td>
           </tr>
           <tr>
             <td><Link to='/about'>about</Link></td>
             <td>project2</td>
-            <td>X</td>
+            <td>linkedin</td>
           </tr>
           <tr>
             <td><a href='/projects'>Projects</a></td>
             <td>project2</td>
-            <td>email</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>project3</td>
             <td>cv</td>
           </tr>
+          {/* <tr>
+            <td></td>
+            <td></td>
+          </tr> */}
         </tbody>
       </table>
     </div>
