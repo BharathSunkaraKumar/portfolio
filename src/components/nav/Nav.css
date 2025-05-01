@@ -123,13 +123,9 @@
   }
 
   @media screen and (max-width: 460px){
-    .nav-container{
-      border: 1px solid;
-      color: rgb(255, 139, 30);
-    }
     @keyframes bounce {
       0% {
-        width: 395px;
+        width: 390px;
       }
       50% {
         width: 400px; /* Slight increase */
@@ -138,7 +134,7 @@
         width: 380px; /* Slight decrease */
       }
       100% {
-        width: 395px; /* Final position */
+        width: 390px; /* Final position */
       }
     }
     @keyframes bounce-close {
