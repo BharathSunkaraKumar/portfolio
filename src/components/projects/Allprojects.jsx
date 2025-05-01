@@ -31,10 +31,8 @@ function Allprojects() {
 
                           <div className="links-ul">
                             <ul className="card-links">
-                              {console.log(project.navLinks)}
                               {
                                 project.navLinks.map((link, i) => {
-                                  console.log(link)
                                   return <li className='li-link' key={i}>
                                     <p>{link}</p>
                                     <span>{link !== 'view' && <OpenInNewIcon/>}</span>
