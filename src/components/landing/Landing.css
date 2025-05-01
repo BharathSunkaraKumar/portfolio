@@ -85,7 +85,14 @@
       opacity: 1;
     }
   }
-
+  @media screen and (max-width: 576px) {
+    .landing-container .linding-items .titile h1{
+        font-size: 35px;
+    }
+    .landing-container .linding-items .tag p{
+        font-size: 14px;
+    }
+}  
 @media screen and (max-width: 740px) {
     .linding-box{
         display: flex;
@@ -99,6 +106,7 @@
     }
     .linding-box .profile-info h1{
         color: rgb(194, 193, 193);
+        
         padding: 5px;
         margin: 5px;
         font-weight: bold;
