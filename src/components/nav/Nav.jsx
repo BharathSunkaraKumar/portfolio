@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './nav.css'
+import './Nav.css'
 import logo from './logo.png'
 import AdsClickIcon from '@mui/icons-material/AdsClick';
 import { Link, Outlet } from 'react-router-dom';
