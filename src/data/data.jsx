@@ -1,52 +1,40 @@
+import rcr from '../images/rcr.png'
+import dark from '../images/dark.png'
+import portfolio from '../images/portfolio.png'
+import todo from '../images/todo.png'
+
 const projects = [
     {
         id: 1,
-        title: 'drinks app',
+        title: 'portfolio',
         tech: ['html', 'css', 'javascript', 'react'],
-        image: 'https://images.unsplash.com/photo-1726137570078-1faa70beb6ad?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        navLinks: ['Live', 'view','github']
+        image: portfolio,
+        navLinks: ['Live', 'github'],
+        links: ['https://bharathsunkara.netlify.app/','https://github.com/BharathSunkaraKumar/portfolio']
     },
     {
         id: 2,
-        title: 'drinks app',
-        tech: ['html', 'css', 'javascript', 'react'],
-        image: 'https://images.unsplash.com/photo-1726137570078-1faa70beb6ad?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        navLinks: ['Live', 'view','github']
+        title: 'rcr',
+        tech: ['html', 'css', 'javascript'],
+        image: rcr,
+        navLinks: ['Live', 'github'],
+        links: ['https://bharath-sunkara-rcr.netlify.app/','https://github.com/BharathSunkaraKumar/RCR-college']
     },
     {
         id: 3,
-        title: 'drinks app',
+        title: "todos",
         tech: ['html', 'css', 'javascript', 'react'],
-        image: 'https://images.unsplash.com/photo-1726137570078-1faa70beb6ad?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        navLinks: ['Live', 'view','github']
+        image: todo,
+        navLinks: ['Live', 'github'],
+        links: ['https://reacttodos-app.netlify.app/','https://github.com/BharathSunkaraKumar/react-todos-app']
     },
     {
         id: 4,
-        title: 'drinks app',
+        title: 'dark mode',
         tech: ['html', 'css', 'javascript', 'react'],
-        image: 'https://images.unsplash.com/photo-1726137570078-1faa70beb6ad?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        navLinks: ['Live', 'view','github']
-    },
-    {
-        id: 5,
-        title: 'drinks app',
-        tech: ['html', 'css', 'javascript', 'react'],
-        image: 'https://images.unsplash.com/photo-1726137570078-1faa70beb6ad?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        navLinks: ['Live', 'view','github']
-    },
-    {
-        id: 6,
-        title: 'drinks app',
-        tech: ['html', 'css', 'javascript', 'react'],
-        image: 'https://images.unsplash.com/photo-1726137570078-1faa70beb6ad?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        navLinks: ['Live', 'view','github']
-    },
-    {
-        id: 7,
-        title: 'drinks app',
-        tech: ['html', 'css', 'javascript', 'react'],
-        image: 'https://images.unsplash.com/photo-1726137570078-1faa70beb6ad?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        navLinks: ['Live', 'view','github']
+        image: dark,
+        navLinks: ['Live','github'],
+        links: ['https://react-theme-dark.netlify.app/','https://github.com/BharathSunkaraKumar/dark-mode']
     },
 ]
 

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import projcets from '../../data/data.jsx'
 import './Allprojects.css'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import { Link } from 'react-router-dom';
 function Allprojects() {
   const [data, setData] = useState(projcets)
   return (
@@ -33,9 +34,14 @@ function Allprojects() {
                             <ul className="card-links">
                               {
                                 project.navLinks.map((link, i) => {
+                                  console.log(project.links[i])
                                   return <li className='li-link' key={i}>
-                                    <p>{link}</p>
-                                    <span>{link !== 'view' && <OpenInNewIcon/>}</span>
+                                    {/* <p>{link}</p>
+                                    <span>{link !== 'view' && <OpenInNewIcon/>}</span> */}
+                                    <div className="lik">
+                                    <Link to={project.links[i]}>{link}</Link>
+                                    </div>
+                                    <div><OpenInNewIcon/></div>
                                   </li>
                                 })
                               }

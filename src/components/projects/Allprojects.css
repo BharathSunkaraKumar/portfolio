@@ -47,7 +47,9 @@
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     width: 100%;
-    object-fit: contain;
+    height: 220px;
+    object-fit: cover;
+    object-position: top;
 }
 .card .card-title h4{
     text-transform: capitalize;
@@ -87,11 +89,18 @@
     
 }
 .links-ul li:hover{
+    transition: all 0.3s linear;
     color: dodgerblue;
 }
 .li-link{
     display: flex;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: center;
+}
+.li-link a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 }
 @media screen and (min-width: 690px) {
     .projects-container{
