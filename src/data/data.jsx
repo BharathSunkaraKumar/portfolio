@@ -2,6 +2,7 @@ import rcr from '../images/rcr.png'
 import dark from '../images/dark.png'
 import portfolio from '../images/portfolio.png'
 import todo from '../images/todo.png'
+import pagination from '../images/pagination.png'
 
 const projects = [
     {
@@ -35,6 +36,14 @@ const projects = [
         image: dark,
         navLinks: ['Live','github'],
         links: ['https://react-theme-dark.netlify.app/','https://github.com/BharathSunkaraKumar/dark-mode']
+    },
+    {
+        id: 5,
+        title: 'pagination',
+        tech: ['html', 'css', 'javascript', 'react'],
+        image: pagination,
+        navLinks: ['Live','github'],
+        links: ['https://paggination-react.netlify.app/','https://github.com/BharathSunkaraKumar/pagination']
     },
 ]
 

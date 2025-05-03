@@ -31,28 +31,27 @@ function About() {
             <div className="tools wrapper">
                 <h1>Tools</h1>
                 <div className='bar'></div>
+                <div className="scroll-bar wrapper">
+                    <div>
+                        <span>html</span>
+                        <span>css</span>
+                        <span>JavaScript</span>
+                        <span>react</span>
+                        <span>react routing</span>
+                        <span>formik</span>
+                        <span>redux toolkit</span>
+                    </div>
+                    <div>
+                        <span>html</span>
+                        <span>css</span>
+                        <span>JavaScript</span>
+                        <span>react</span>
+                        <span>react routing</span>
+                        <span>formik</span>
+                        <span>redux toolkit</span>
+                    </div>
             </div>
-            <div className="scroll-bar wrapper">
-                <div>
-                    <span>html</span>
-                    <span>css</span>
-                    <span>JavaScript</span>
-                    <span>react</span>
-                    <span>react routing</span>
-                    <span>formik</span>
-                    <span>redux toolkit</span>
-                </div>
-                <div>
-                    <span>html</span>
-                    <span>css</span>
-                    <span>JavaScript</span>
-                    <span>react</span>
-                    <span>react routing</span>
-                    <span>formik</span>
-                    <span>redux toolkit</span>
-                </div>
             </div>
-
     </>
   )
 }

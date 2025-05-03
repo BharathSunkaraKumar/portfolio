@@ -34,12 +34,9 @@ function Allprojects() {
                             <ul className="card-links">
                               {
                                 project.navLinks.map((link, i) => {
-                                  console.log(project.links[i])
                                   return <li className='li-link' key={i}>
-                                    {/* <p>{link}</p>
-                                    <span>{link !== 'view' && <OpenInNewIcon/>}</span> */}
                                     <div className="lik">
-                                    <Link to={project.links[i]}>{link}</Link>
+                                    <Link to={project.links[i]} target="_blank">{link}</Link>
                                     </div>
                                     <div><OpenInNewIcon/></div>
                                   </li>

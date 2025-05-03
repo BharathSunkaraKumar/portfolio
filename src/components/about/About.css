@@ -143,6 +143,7 @@
 }
 
 @media screen and (max-width: 1000px) {
+
     .about-right .about-img{
         height: 280px;
         width: 350px;
@@ -173,6 +174,9 @@
         color: #FFFFFFcc;
         letter-spacing: 1px;
     }
+    .scroll-bar{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 460px){
     .about-left-hello h1, h2{
@@ -185,5 +189,8 @@
     .about-right .about-img{
         height: 280px;
         width: 330px;
+    }
+    .scroll-bar{
+        width: 100%;
     }
 }
