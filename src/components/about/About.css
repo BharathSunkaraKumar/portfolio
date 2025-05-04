@@ -53,12 +53,12 @@
 .scroll-bar div:nth-child(2) {
     animation: scrolltwo 20s linear infinite;
     animation-delay: calc(20s / -2);
+    border: 1px solid;
 }
 .scroll-bar div span {
     
     display: inline-flex;
     margin: 10px;
-    background: #333;
     color: #fff;
     letter-spacing: 0.2em;
     text-transform: capitalize;
@@ -67,7 +67,7 @@
     transition: 0.5s;
 }
 .scroll div span:hover{
-    background: dodgerblue;
+    /* background: dodgerblue; */
     cursor: pointer;
 }
 
@@ -103,8 +103,6 @@
         transform: translateX(-200%);
     }
 }
-
-
 @keyframes sideleft{
     from {
         transform: translateX(-100px);
@@ -132,7 +130,6 @@
 .about-left-hello h2{
     font-size: 80px;
     color: #f1eeee;
-    margin-bottom: 20px;
 }
 .about-left-disc p{
     width: 400px;
@@ -148,20 +145,22 @@
 .about-right .about-img:hover{
     filter: grayscale(0%);
 }
-@media screen and (max-width: 1000px) {
 
-    .about-right .about-img{
-        height: 280px;
-        width: 350px;
+@media screen and (max-width: 950px) {
+
+    
+    .about-img img{
+        width: 100%;
     }
     .about-container{
         display: flex;
         flex-direction: column;
         flex-flow: column-reverse;
         align-items: center;
-        justify-content: center;
+        gap: 10px;
         margin: 20px;
         padding: 20px;
+        /* border: 1px solid; */
         
     }
     .about-left-hello h1{
@@ -172,38 +171,56 @@
     .about-left-hello h2{
         font-size: 45px;
         color: #f1eeee;
-        margin-bottom: 20px;
         padding: 10px;
     }
     .about-left-disc p{
         /* text-align: start; */
         width: 280px;
-        font-size: 22px;
+        font-size: 18px;
         text-emphasis: s;
         color: #FFFFFFcc;
         letter-spacing: 1.8px;
         padding: 10px;
+        width: 100%;
+    }
+    .about-left{
+        width: 100%;
+        margin-left: 35px;
+    }
+    .scroll-bar{
+        width: 100%;
+    }
+    .tools h1{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 590px){
+    .about-container{
+        /* border: 1px solid red; */
+    }
+    .about-left-disc p{
+        font-size: 9px;
+    }
+    .about-right .about-img{
+        height: 280px;
+        width: 300px;
     }
     .scroll-bar{
         width: 100%;
     }
 }
-@media screen and (max-width: 460px){
-    /* .about-container{
-        width: 100%;
-    } */
-    .about-left-hello h1, h2{
-        margin-left: 15px;
-    }
-    .about-left-disc p{
-        font-size: 9px;
-        margin-left: 15px;
-    }
+@media screen and (max-width: 413px){
     .about-right .about-img{
-        height: 280px;
-        width: 330px;
+        height: 240px;
+        width: 260px;
     }
-    .scroll-bar{
+    .about-left{
         width: 100%;
+    }
+    .about-left-hello h1{
+        font-size: 40px;
+    }
+    .about-left-hello h2{
+        font-size: 30px;
     }
 }

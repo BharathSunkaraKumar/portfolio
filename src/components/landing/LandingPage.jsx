@@ -2,6 +2,7 @@ import React from 'react'
 import './Landing.css'
 import Projects from '../projects/Projects.jsx'
 import SplitText from '../projects/SplitText.jsx'
+import GlitchText from '../../../react-bits/GlitchText/GlitchText.jsx'
 function LandingPage() {
   return (
     <>
@@ -11,7 +12,7 @@ function LandingPage() {
                     <div className="titile">
                         <h1>bhatath kumar sunkara</h1>
                     </div>
-                    
+
                     <div className="tag">
                         <p>Designing through a different lens.</p>
                     </div>
@@ -23,8 +24,18 @@ function LandingPage() {
                 </div>
                 <div className="profile-info">
                     
-                        <SplitText text='Hello!'/>
-                    
+                        {/* <SplitText text='Hello!'/> */}
+                    <h1>{/* decrypted */}
+                    <GlitchText
+                    speed={1}
+                    enableShadows={true}
+                    enableOnHover={true}
+                    className='custom-class'
+                    >
+                    Hello!
+                    </GlitchText>
+                    {/* decrypted */}</h1>
+
                     <p>I'm a passionate <strong>Frontend Developer</strong> with a keen eye for detail and a love for crafting interactive, responsive, and user-friendly web experiences. 
                     I specialize in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and modern libraries like <strong>React.js</strong>.
                     My goal is to bring designs to life with clean, maintainable code and delightful UI interactions.</p>

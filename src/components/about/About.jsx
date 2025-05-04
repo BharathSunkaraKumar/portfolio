@@ -4,7 +4,31 @@ import mypic from './mypic.jpg'
 import mypic2 from './mypic2.jpeg'
 import mypic3 from './mypic3.jpeg'
 import profile2 from './profile2.jpeg'
+import react from '../../assets/react.svg'
+import html from '../../assets/html.svg'
+import css from '../../assets/css.svg'
+import js from '../../assets/js.svg'
+import router from '../../assets/router.svg'
+import formik from '../../assets/formik.svg'
+import redux from '../../assets/redux.svg'
+import InfiniteScroll from '../../../react-bits/InfiniteScroll/InfiniteScroll'
 function About() {
+    const items = [
+        { content: "Html" },
+        { content: <img src={html} alt='html' width='50px'/> },
+        { content: "Css" },
+        { content: <img src={css} alt='css' width='50px'/> },
+        { content: "JavaScript" },
+        { content: <img src={js} alt='js' width='50px'/> },
+        { content: "React" },
+        { content: <img src={react} alt='react' width='50px'/> },
+        { content: "React-Routing" },
+        { content: <img src={router} alt='router' width='50px'/> },
+        { content: "Reduc-Tool-Kit" },
+        { content: <img src={redux} alt='redux' width='50px'/> },
+        { content: "Formik" },
+        { content: <img src={formik} alt='formik' width='50px'/> },
+      ];
   return (
     <>
     <div className='about-box wrapper'>
@@ -26,7 +50,7 @@ function About() {
             </div>
             <div className="about-right">
                 <div className="about-img">
-                    <img src={profile2} alt='mypic'/>
+                    <img src={profile2} alt='mypic' width='50px'/>
                 </div>
             </div>
         </div>
@@ -35,27 +59,42 @@ function About() {
             <div className="tools wrapper">
                 <h1>Technologies and Tools</h1>
                 <div className='bar'></div>
-                <div className="scroll-bar wrapper">
+                {/* <div className="scroll-bar wrapper">
                     <div>
-                        <span>html</span>
-                        <span>css</span>
-                        <span>JavaScript</span>
-                        <span>react</span>
-                        <span>react routing</span>
-                        <span>formik</span>
-                        <span>redux toolkit</span>
+                        <span><img src={html} alt='html' width='20px'/></span>
+                        <span><img src={css} alt='css' width='20px'/></span>
+                        <span><img src={js} alt='js' width='20px'/></span>
+                        <span><img src={react} alt='react' width='20px'/></span>
+                        <span><img src={router} alt='router' width='20px'/></span>
+                        <span><img src={redux} alt='redux' width='20px'/></span>
+                        <span><img src={formik} alt='formik' width='20px'/></span>
                     </div>
                     <div>
-                        <span>html</span>
-                        <span>css</span>
-                        <span>JavaScript</span>
-                        <span>react</span>
-                        <span>react routing</span>
-                        <span>formik</span>
-                        <span>redux toolkit</span>
+                        <span><img src={html} alt='html' width='20px'/></span>
+                        <span><img src={css} alt='css' width='20px'/></span>
+                        <span><img src={js} alt='js' width='20px'/></span>
+                        <span><img src={react} alt='react' width='20px'/></span>
+                        <span><img src={formik} alt='formik' width='20px'/></span>
+                        <span><img src={router} alt='router' width='20px'/></span>
+                        <span><img src={redux} alt='redux' width='20px'/></span>
                     </div>
+                    <div>
+                        
+                    </div>
+            </div> */}
+            
             </div>
-            </div>
+            <div style={{height: '500px', position: 'relative'}}>
+  <InfiniteScroll
+    items={items}
+    isTilted={true}
+    tiltDirection='left'
+    autoplay={true}
+    autoplaySpeed={0.1}
+    autoplayDirection="down"
+    pauseOnHover={true}
+  />
+</div>
     </>
   )
 }
