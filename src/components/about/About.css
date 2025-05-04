@@ -156,7 +156,7 @@
         justify-content: center;
         margin: 20px;
         padding: 20px;
-        width: 100%;
+        
     }
     .about-left-hello h1{
         font-size: 55px;
@@ -180,9 +180,9 @@
     }
 }
 @media screen and (max-width: 460px){
-    .about-container{
+    /* .about-container{
         width: 100%;
-    }
+    } */
     .about-left-hello h1, h2{
         margin-left: 15px;
     }
