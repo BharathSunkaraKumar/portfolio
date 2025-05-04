@@ -3,12 +3,13 @@ import projcets from '../../data/data.jsx'
 import './Allprojects.css'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { Link } from 'react-router-dom';
+import SplitText from './SplitText.jsx';
 function Allprojects() {
   const [data, setData] = useState(projcets)
   return (
     <div className='allProjects wrapper'>
         <div className="title">
-            <h1>Projects</h1>
+            <SplitText text='Projects'/>
             <div className='bar'></div>
         </div>
         <hr/>

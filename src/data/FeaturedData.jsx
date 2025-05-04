@@ -1,32 +1,42 @@
 import img1  from '../components/projects/assets/Futuristic Virtual Reality Experience.jpeg';
-
 import img2  from '../components/projects/assets/Futuristic VR Scene.jpeg';
 import img3  from '../components/projects/assets/Virtual Reality Encounter.jpeg';
-
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import rcr from '../images/rcr.png'
+import dark from '../images/dark.png'
+import todo from '../images/todo.png'
+import TaskIcon from '@mui/icons-material/Task';
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 const FeaturedData = [
     {
-      title: 'project1',
-      tag: 'tag name',
+      title: 'rcr',
+      tag: 'RCR Institute',
       id: '1',
-      img: img1,
+      logo: <AccountBalanceIcon/>,
+      img: rcr,
+      link: 'https://bharath-sunkara-rcr.netlify.app/',
       tech: ['react', 'redux', 'react-routing'],
-      discription:' Lorem ipsum dolor, sit amet consectetur adipisicing'
+      discription: 'This was implemented using HTML, CSS, and JavaScript.'
     },
     {
-      title: 'project2',
-      tag: 'tag name',
+      title: 'darkmode',
+      tag: 'dark-theme',
       id: '2',
-      img: img2,
+      logo: <DarkModeIcon/>,
+      img: dark,
+      link: 'https://react-theme-dark.netlify.app/',
       tech: ['react', 'redux', 'react-routing'],
-      discription:' Lorem ipsum dolor, sit amet consectetur adipisicing'
+      discription: 'This was implemented using HTML, CSS, JavaScript and react'
     },
     {
-      title: 'project3',
-      tag: 'tag name',
+      title: 'todo app',
+      tag: 'add todos',
       id: '3',
-      img: img3,
+      logo: <TaskIcon/>,
+      img: todo,
+      link: 'https://reacttodos-app.netlify.app/',
       tech: ['react', 'redux', 'react-routing'],
-      discription:' Lorem ipsum dolor, sit amet consectetur adipisicing'
+      discription: 'This was implemented using HTML, CSS, JavaScript and react'
     }
   ]
 

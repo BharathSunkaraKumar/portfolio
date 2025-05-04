@@ -55,9 +55,6 @@
     border-radius: 10px;
     transition: all 0.3s linear;
 }
-.linding-box .profile-img img:hover{
-    box-shadow: 0px 0px 50px 0px rgb(188, 202, 218);
-}
 .linding-box .profile-info{
     margin-left: 40px;
 }
@@ -74,7 +71,11 @@
     letter-spacing: 1px;
     font-size: 14px;
     color: #918d8d;
+} 
+.profile-info strong{
+    color: dodgerblue;
 }
+
 @keyframes slideInBottom {
     from {
       transform: translateY(100px);

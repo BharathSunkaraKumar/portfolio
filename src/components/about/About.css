@@ -156,6 +156,7 @@
         justify-content: center;
         margin: 20px;
         padding: 20px;
+        width: 100%;
     }
     .about-left-hello h1{
         font-size: 55px;
@@ -169,16 +170,19 @@
     .about-left-disc p{
         /* text-align: start; */
         width: 300px;
-        font-size: 10px;
+        font-size: 12px;
         text-emphasis: s;
         color: #FFFFFFcc;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
     }
     .scroll-bar{
         width: 100%;
     }
 }
 @media screen and (max-width: 460px){
+    .about-container{
+        width: 100%;
+    }
     .about-left-hello h1, h2{
         margin-left: 15px;
     }

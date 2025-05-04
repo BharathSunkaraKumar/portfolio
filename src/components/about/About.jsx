@@ -12,7 +12,7 @@ function About() {
                 </div>
                 <div className="about-left-disc">
                     <p>
-                    Hi, I'm Bharath Kumar Sunkara, a passionate and motivated learner currently pursuing my Master of Computer Applications (MCA) at RCR College. Alongside my studies, I have been working at Venous Geo Solutions for the past 2 years.
+                     I'm Bharath Kumar Sunkara, a passionate and motivated learner currently pursuing my Master of Computer Applications (MCA) at RCR College. Alongside my studies, I have been working at Venous Geo Solutions for the past 2 years.
 
                     At present, I’m deeply focused on Frontend Web Development, sharpening my skills in HTML, CSS, JavaScript, React.js, React-routing, Formik and Redux Toolkit, . I enjoy creating responsive, user-friendly web interfaces and continuously strive to learn new technologies to build modern web applications.
 
@@ -29,7 +29,7 @@ function About() {
         
     </div>
             <div className="tools wrapper">
-                <h1>Tools</h1>
+                <h1>Technologies and Tools</h1>
                 <div className='bar'></div>
                 <div className="scroll-bar wrapper">
                     <div>
