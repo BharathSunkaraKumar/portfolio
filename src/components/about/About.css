@@ -159,21 +159,24 @@
         
     }
     .about-left-hello h1{
-        font-size: 55px;
+        font-size: 50px;
         color: #FFFFFF33;
+        padding: 10px;
     }
     .about-left-hello h2{
-        font-size: 48px;
+        font-size: 45px;
         color: #f1eeee;
         margin-bottom: 20px;
+        padding: 10px;
     }
     .about-left-disc p{
         /* text-align: start; */
-        width: 300px;
-        font-size: 12px;
+        width: 280px;
+        font-size: 22px;
         text-emphasis: s;
         color: #FFFFFFcc;
-        letter-spacing: 1.5px;
+        letter-spacing: 1.8px;
+        padding: 10px;
     }
     .scroll-bar{
         width: 100%;
