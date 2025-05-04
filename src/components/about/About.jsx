@@ -1,5 +1,9 @@
 import React from 'react'
 import './About.css'
+import mypic from './mypic.jpg'
+import mypic2 from './mypic2.jpeg'
+import mypic3 from './mypic3.jpeg'
+import profile2 from './profile2.jpeg'
 function About() {
   return (
     <>
@@ -22,7 +26,7 @@ function About() {
             </div>
             <div className="about-right">
                 <div className="about-img">
-                    <img src='https://images.unsplash.com/photo-1457449940276-e8deed18bfff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'/>
+                    <img src={profile2} alt='mypic'/>
                 </div>
             </div>
         </div>

@@ -218,7 +218,6 @@
     pointer-events: auto;
   }
   .main-logo{
-    cursor: pointer;
     color: dodgerblue;
     font-weight: bold;
     position: relative;

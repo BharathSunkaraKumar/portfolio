@@ -1,6 +1,5 @@
 import React from 'react'
 import './Landing.css'
-import profile from './profile2.jpeg'
 import Projects from '../projects/Projects.jsx'
 import SplitText from '../projects/SplitText.jsx'
 function LandingPage() {

@@ -141,7 +141,13 @@
     letter-spacing: 1px;
     line-height: 1.5;
 }
-
+.about-right .about-img{
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+}
+.about-right .about-img:hover{
+    filter: grayscale(0%);
+}
 @media screen and (max-width: 1000px) {
 
     .about-right .about-img{
