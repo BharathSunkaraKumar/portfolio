@@ -24,7 +24,7 @@ function About() {
         { content: <img src={react} alt='react' width='50px'/> },
         { content: "React-Routing" },
         { content: <img src={router} alt='router' width='50px'/> },
-        { content: "Reduc-Tool-Kit" },
+        { content: "Redux-Tool-Kit" },
         { content: <img src={redux} alt='redux' width='50px'/> },
         { content: "Formik" },
         { content: <img src={formik} alt='formik' width='50px'/> },
@@ -59,42 +59,18 @@ function About() {
             <div className="tools wrapper">
                 <h1>Technologies and Tools</h1>
                 <div className='bar'></div>
-                {/* <div className="scroll-bar wrapper">
-                    <div>
-                        <span><img src={html} alt='html' width='20px'/></span>
-                        <span><img src={css} alt='css' width='20px'/></span>
-                        <span><img src={js} alt='js' width='20px'/></span>
-                        <span><img src={react} alt='react' width='20px'/></span>
-                        <span><img src={router} alt='router' width='20px'/></span>
-                        <span><img src={redux} alt='redux' width='20px'/></span>
-                        <span><img src={formik} alt='formik' width='20px'/></span>
-                    </div>
-                    <div>
-                        <span><img src={html} alt='html' width='20px'/></span>
-                        <span><img src={css} alt='css' width='20px'/></span>
-                        <span><img src={js} alt='js' width='20px'/></span>
-                        <span><img src={react} alt='react' width='20px'/></span>
-                        <span><img src={formik} alt='formik' width='20px'/></span>
-                        <span><img src={router} alt='router' width='20px'/></span>
-                        <span><img src={redux} alt='redux' width='20px'/></span>
-                    </div>
-                    <div>
-                        
-                    </div>
-            </div> */}
-            
             </div>
             <div style={{height: '500px', position: 'relative'}}>
-  <InfiniteScroll
-    items={items}
-    isTilted={true}
-    tiltDirection='left'
-    autoplay={true}
-    autoplaySpeed={0.1}
-    autoplayDirection="down"
-    pauseOnHover={true}
-  />
-</div>
+            <InfiniteScroll
+                items={items}
+                isTilted={true}
+                tiltDirection='left'
+                autoplay={true}
+                autoplaySpeed={0.1}
+                autoplayDirection="down"
+                pauseOnHover={true}
+            />
+            </div>
     </>
   )
 }
