@@ -45,7 +45,7 @@
     overflow: hidden;
     color: gray;
     animation: slideInBottom 0.8s ease-out forwards;
-    opacity: 0
+    opacity: 0;
 }
 .linding-box .profile-img img{
     height: 350px;
@@ -93,19 +93,21 @@
     .landing-container .linding-items .tag p{
         font-size: 14px;
     }
+    
 }  
 @media screen and (max-width: 740px) {
     .linding-box{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         height: auto;
+        gap: 10px;
     }
+
     .linding-box .profile-img{
         margin-top: 40px;
     }
-    .linding-box .profile-info h1{
+    /* .linding-box .profile-info h1{
         color: rgb(194, 193, 193);
         
         padding: 5px;
@@ -114,18 +116,14 @@
         letter-spacing: 1px;
         font-size: 22px;
         text-align: center;
-    }
+    } */
     .titile h1{
         font-size: 40px;
     }
     .linding-box .profile-info p{
-        text-align: center;
-        padding: 5px;
-        margin: 5px;
-        
         letter-spacing: 1px;
         font-size: 12px;
-        color: #b4acac;
+        
     }
     .landing-container .linding-items .titile{
         font-size: 16px;
@@ -135,5 +133,8 @@
     }
     .linding-box{
         padding-bottom: 20px;
+    }
+    .linding-box .profile-info {
+        margin-left: 0px;
     }
 }
