@@ -20,17 +20,17 @@ function Footer() {
         <tbody>
           <tr>
             <td><Link to='/'>Home</Link></td>
-            <td><NavLink to='https://bharath-sunkara-rcr.netlify.app/' target="_blank">rcr</NavLink></td>
-            <td><NavLink to='https://github.com/BharathSunkaraKumar' target="_blank">github</NavLink></td>
+            <td><Link to='https://bharath-sunkara-rcr.netlify.app/' target="_blank">rcr</Link></td>
+            <td><Link to='https://github.com/BharathSunkaraKumar' target="_blank">github</Link></td>
           </tr>
           <tr>
             <td><Link to='/about'>about</Link></td>
-            <td><NavLink to='https://react-theme-dark.netlify.app/' target="_blank">dark mode</NavLink></td>
+            <td><Link to='https://react-theme-dark.netlify.app/' target="_blank">dark mode</Link></td>
             <td>linkedin</td>
           </tr>
           <tr>
-            <td><a href='/projects'>Projects</a></td>
-            <td><NavLink to='https://reacttodos-app.netlify.app/' target="_blank">todos app</NavLink></td>
+            <td><Link to='/projects'>Projects</Link></td>
+            <td><Link to='https://reacttodos-app.netlify.app/' target="_blank">todos app</Link></td>
             <td>cv</td>
           </tr>
           {/* <tr>

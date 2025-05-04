@@ -69,9 +69,9 @@ function Nav() {
                   {/* <img src='touch.webp' alt='left-logo'/> */}
                 </div>
                 <ul className="nav-links">
-                  <li><a href='./'>work</a></li>
+                  <li><Link to='./'>work</Link></li>
                   <li><Link to='/about'>about</Link></li>
-                  <li><a href='/projects'>projects</a></li>
+                  <li><Link to='/projects'>projects</Link></li>
                 </ul>
                 <div className="logo-right">
                   <div className="scroll-ring-container">

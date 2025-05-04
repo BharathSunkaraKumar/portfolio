@@ -10,6 +10,7 @@ import About from './components/about/About.jsx'
 import LandingPage from './components/landing/LandingPage.jsx'
 import Projects from './components/projects/Projects.jsx'
 import Allprojects from './components/projects/Allprojects.jsx'
+import ScrollTop from './components/scrolltop/ScrollTop.jsx'
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    
     <RouterProvider router={router}/>
   </StrictMode>,
 )

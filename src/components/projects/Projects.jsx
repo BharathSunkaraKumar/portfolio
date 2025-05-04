@@ -5,7 +5,7 @@ import img1  from './assets/Futuristic Virtual Reality Experience.jpeg';
 import img2  from './assets/Futuristic VR Scene.jpeg';
 import img3  from './assets/Virtual Reality Encounter.jpeg';
 import FeaturedData from '../../data/FeaturedData';
-import { NavLink } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 function Projects() {
   const[date, setDate] = useState(FeaturedData)
   return (
@@ -17,7 +17,7 @@ function Projects() {
         {
             date.map((e) => {
               return <div className='project-card' key={e.id}>
-                  <NavLink to={e.link} target="_blank">
+                  <Link to={e.link} target="_blank">
                   
                   <div className="card-top">
                     <div className="card-top-title">
@@ -40,7 +40,7 @@ function Projects() {
                       </div>
                     </div>
                   </div>
-                  </NavLink>
+                  </Link>
               </div>
             })
         }
