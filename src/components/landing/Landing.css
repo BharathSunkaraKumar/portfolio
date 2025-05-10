@@ -19,7 +19,7 @@
     font-size: 58px;
 }
 .landing-container .linding-items .tag{
-    color: gray;
+    color: var(--nav-primary-clr);
     letter-spacing: 1px;
     text-align: center;
 }
@@ -43,7 +43,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    color: gray;
+    color: var(--nav-primary-clr);
     animation: slideInBottom 0.8s ease-out forwards;
     opacity: 0;
 }
@@ -59,7 +59,7 @@
     margin-left: 40px;
 }
 .linding-box .profile-info h1{
-    color: rgb(173, 168, 168);
+    color: var(--nav-primary-clr);
     padding: 10px;
     margin: 10px;
     font-weight: bold;
@@ -70,10 +70,10 @@
     margin: 10px;
     letter-spacing: 1px;
     font-size: 14px;
-    color: #918d8d;
+    color: var(--nav-primary-clr);
 } 
 .profile-info strong{
-    color: dodgerblue;
+    color: var(--under-line);
 }
 
 @keyframes slideInBottom {
@@ -107,23 +107,12 @@
     .linding-box .profile-img{
         margin-top: 40px;
     }
-    /* .linding-box .profile-info h1{
-        color: rgb(194, 193, 193);
-        
-        padding: 5px;
-        margin: 5px;
-        font-weight: bold;
-        letter-spacing: 1px;
-        font-size: 22px;
-        text-align: center;
-    } */
     .titile h1{
         font-size: 40px;
     }
     .linding-box .profile-info p{
         letter-spacing: 1px;
         font-size: 12px;
-        
     }
     .landing-container .linding-items .titile{
         font-size: 16px;

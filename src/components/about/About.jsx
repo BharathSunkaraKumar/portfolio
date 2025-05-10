@@ -11,6 +11,7 @@ import js from '../../assets/js.svg'
 import router from '../../assets/router.svg'
 import formik from '../../assets/formik.svg'
 import redux from '../../assets/redux.svg'
+import SplitText from '../projects/SplitText';
 import InfiniteScroll from '../../../react-bits/InfiniteScroll/InfiniteScroll'
 function About() {
     const items = [
@@ -32,14 +33,16 @@ function About() {
   return (
     <>
     <div className='about-box wrapper'>
+    <div className="title">
+            <SplitText text='About'/>
+            <div className='bar'></div>
+        </div>
         <div className="about-container">
             <div className="about-left">
                 <div className="about-left-hello">
-                    <h1>Hey there,</h1>
-                    
+                    <h1>Hi, I'm Bharath.</h1>
                 </div>
                 <div className="about-left-disc">
-                    <h2>I'm Bharath kumar sunkara,</h2>
                     <p>
                      a passionate and motivated learner currently pursuing my Master of Computer Applications (MCA) at RCR College. Alongside my studies, I have been working at Venous Geo Solutions for the past 2 years.
 
@@ -58,7 +61,7 @@ function About() {
         
     </div>
             <div className="tools wrapper">
-                <h1>Technologies and Tools</h1>
+                <SplitText text='Frontend'/>
                 <div className='bar'></div>
             </div>
             <div style={{height: '500px', position: 'relative'}}>

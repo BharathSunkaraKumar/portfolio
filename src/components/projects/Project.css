@@ -1,5 +1,6 @@
 .project-card{
-    background-color: rgb(30, 29, 28);
+    /* background-color: rgb(30, 29, 28); */
+    background: var(--box-clr);
     height: 500px;
     border-radius: 12px;
     margin-bottom: 50px;
@@ -19,7 +20,7 @@
 }
 .project-card:hover{
     
-    box-shadow: 0px 0px 50px -0px rgb(58, 59, 59);
+    box-shadow: var(--white-shadow);
 }
 /* card */
 .card-top{
@@ -28,7 +29,7 @@
     /* border: 1px solid; */
     padding: 30px;
     margin: 10px;
-    color: #979797;
+    color: var(--disc-clr);
 }
 .project-card a{
     text-decoration: none;
@@ -63,7 +64,7 @@
     object-position: top;
 }
 .card-bottom-tag p{
-    color: #F2F2F2;
+    color: var(--primary-white);
     font-size: 35px;
     text-transform: capitalize;
     font-weight: bold;
@@ -71,7 +72,7 @@
 }
 .card-bottom-discription p{
     text-transform: capitalize;
-    color: #979797;
+    color: var(--disc-clr);
     font-size: 20px;
 }
 .projects-heading p{
@@ -100,13 +101,6 @@
         transform: scale(1);
     }
 }
-/* @media screen and (max-width: 350px){
-    
-}
-@media screen and (max-width: 600px){
-} */
-
-
 @media screen and (max-width: 670px){
     .card-bottom-discription p{
         font-size: 12px;
@@ -139,10 +133,7 @@
     .card-bottom-tag p{
         font-size: 22px;
     }
-    
-    
 }
-
 @media screen and (max-width: 750px) {
     .card-bottom-details {
         width: 300px;

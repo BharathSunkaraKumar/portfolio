@@ -12,7 +12,7 @@
     height: 4px;
     width: 80px;
     border-radius: 10px;
-    background: dodgerblue;
+    background: var(--under-line);
     margin-bottom: 30px;
     margin-top: 5px;
 }
@@ -27,7 +27,7 @@
     
 }
 .card{
-    background: rgb(39, 40, 41);
+    background: var(--box-clr);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -65,7 +65,8 @@
 }
 .card .card-tech span{
     margin-right: 10px;
-    background-color: rgb(78, 77, 77);
+    background-color: var(--nav-logo);
+    color: var(--disc-clr);
     padding: 8px;
     font-size: 13px;
     letter-spacing: 0.2em;
@@ -95,7 +96,7 @@
     justify-content: center;
 }
 .li-link a{
-    color: white;
+    color: var(--primary-white);
     text-decoration: none;
     font-size: 18px;
 }

@@ -4,9 +4,9 @@ import { Link, NavLink } from 'react-router-dom'
 function Footer() {
   return (
     <div className='footer-container'>
-      <div className="say-hi wrapper">
+      {/* <div className="say-hi wrapper">
         <h1>👋 Thanks for stopping by! Here is more of me if you are interested :)</h1>
-      </div>
+      </div> */}
       <table>
           <thead>
             <tr>

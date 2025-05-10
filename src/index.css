@@ -1,14 +1,42 @@
 :root{
   --primary-blr: #101010;
   --primary-white: white;
-  --nav-border: rgb(48, 50, 54);
+  --nav-border: 0.1px solid rgb(48, 50, 54);
+  --nav-logo: rgb(48, 50, 54);
   --nav-box-shadow: box-shadow: 0 4px 30px rgba(0,0,0,0.3);
   --nav-primary-clr: #7F8188;
+  --nav-clr:rgba(16, 16, 16, 0.9);
   --hero-clor: rgb(127, 129, 136);
   --footer-header: #737070;
   --footer-clr: #939292;
   --under-line : dodgerblue;
   --disc-clr: #979797;
+  --box-border-clr: #282828;
+  --white-shadow:0px 0px 50px -0px rgb(58, 59, 59);
+  --box-clr: linear-gradient(134.192deg, rgb(19, 19, 19) 0%, rgb(32, 32, 32) 100%);
+  --footer-primary:rgb(30, 29, 28);
+  --th:rgb(115, 112, 112);
+  --td:rgb(147, 146, 146);
+}
+[white-theme= 'white'] {
+  --primary-blr: white;
+  --primary-white: #101010;
+  --nav-border: 0.1px solid rgb(48, 50, 54);
+  --nav-logo: rgb(48, 50, 54);
+  --nav-box-shadow: box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+  --nav-primary-clr: #7F8188;
+  --nav-clr:rgba(16, 16, 16, 0.9);
+  --hero-clor: rgb(127, 129, 136);
+  --footer-header: #737070;
+  --footer-clr: #939292;
+  --under-line : dodgerblue;
+  --disc-clr: #979797;
+  --box-border-clr: #282828;
+  --white-shadow:0px 0px 50px -0px rgb(58, 59, 59);
+  --box-clr: linear-gradient(134.192deg, rgb(19, 19, 19) 0%, rgb(32, 32, 32) 100%);
+  --footer-primary:rgb(30, 29, 28);
+  --th:rgb(115, 112, 112);
+  --td:rgb(147, 146, 146);
 }
 
 *{
@@ -22,7 +50,7 @@
   font-style: normal; 
 }
 body{
-  background: #101010;
+  background: var(--primary-blr);
   color: white;
 }
 .wrapper{
