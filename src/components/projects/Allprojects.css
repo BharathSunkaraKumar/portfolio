@@ -21,6 +21,9 @@
 .projects-container{
     margin-top: 50px;
     margin-bottom: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     
 }
 .card{
@@ -31,7 +34,6 @@
     align-items: center;
     justify-content: space-around;
     gap: 10px;
-    margin: 20px;
     transition: all 0.3s linear;
 }
 .card:hover{
@@ -55,10 +57,11 @@
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
-    color: dodgerblue;
+    color: var(--under-line);
 }
 .card .card-tech{
-    margin: 10px;
+    padding: 8px;
+    margin: 8px;
 }
 .card .card-tech span{
     margin-right: 10px;
@@ -67,7 +70,7 @@
     font-size: 13px;
     letter-spacing: 0.2em;
     border-radius: 3px;
-    text-transform: capitalize;
+    text-transform: capitalize; 
 }
 .links-ul{
     width: 100%;
@@ -86,10 +89,6 @@
     font-size: 16px;
     margin-bottom: 10px;
 }
-.links-ul li:hover{
-    transition: all 0.3s linear;
-    color: dodgerblue;
-}
 .li-link{
     display: flex;
     align-items: flex-start;
@@ -100,15 +99,22 @@
     text-decoration: none;
     font-size: 18px;
 }
+.li-link .lik{
+    display: flex;
+}
+.lik a:hover{
+    transition: all 0.3s linear;
+    color: var(--under-line);
+}
 @media screen and (min-width: 690px) {
-    .projects-container{
+    /* .projects-container{
         display: grid;
     grid-template-columns: 1fr 1fr;
-    }
+    } */
 }
 @media screen and (min-width: 1080px) {
-    .projects-container{
+    /* .projects-container{
         display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    }
+    } */
 }

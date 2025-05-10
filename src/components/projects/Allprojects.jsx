@@ -12,7 +12,6 @@ function Allprojects() {
             <SplitText text='Projects'/>
             <div className='bar'></div>
         </div>
-        <hr/>
         <div className="projects-container">
         {
             data.map((project) => {
@@ -38,8 +37,10 @@ function Allprojects() {
                                   return <li className='li-link' key={i}>
                                     <div className="lik">
                                     <Link to={project.links[i]} target="_blank">{link}</Link>
+                                    <div className="link-icon">
+                                    <OpenInNewIcon/>
                                     </div>
-                                    <div><OpenInNewIcon/></div>
+                                    </div>
                                   </li>
                                 })
                               }

@@ -61,15 +61,15 @@ function Nav() {
           <div className="nav-item">
             <div className="dynamic-container">
             <div className={`dynamic-nav-bar ${animationClass} `}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}>
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}>
                 <div className="logo-left">
                   <AdsClickIcon fontSize='large'></AdsClickIcon>
                   {/* <img src={touch} alt='let-logo'/> */}
                   {/* <img src='touch.webp' alt='left-logo'/> */}
                 </div>
                 <ul className="nav-links">
-                  <li><Link to='./'>work</Link></li>
+                  <li><Link to='./'>home</Link></li>
                   <li><Link to='/about'>about</Link></li>
                   <li><Link to='/projects'>projects</Link></li>
                 </ul>
