@@ -36,11 +36,12 @@ function About() {
             <div className="about-left">
                 <div className="about-left-hello">
                     <h1>Hey there,</h1>
-                    <h2>I'm Bharath.</h2>
+                    
                 </div>
                 <div className="about-left-disc">
+                    <h2>I'm Bharath kumar sunkara,</h2>
                     <p>
-                     I'm Bharath Kumar Sunkara, a passionate and motivated learner currently pursuing my Master of Computer Applications (MCA) at RCR College. Alongside my studies, I have been working at Venous Geo Solutions for the past 2 years.
+                     a passionate and motivated learner currently pursuing my Master of Computer Applications (MCA) at RCR College. Alongside my studies, I have been working at Venous Geo Solutions for the past 2 years.
 
                     At present, I’m deeply focused on Frontend Web Development, sharpening my skills in HTML, CSS, JavaScript, React.js, React-routing, Formik and Redux Toolkit, . I enjoy creating responsive, user-friendly web interfaces and continuously strive to learn new technologies to build modern web applications.
 
