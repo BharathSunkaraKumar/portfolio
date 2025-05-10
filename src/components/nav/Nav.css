@@ -34,8 +34,7 @@
     justify-content: space-around;
 }
 .dynamic-nav-bar{
-  
-    border: 1px solid rgb(77, 75, 75);
+    border: 1px solid rgb(48, 50, 54);
     position: absolute;
     top: 10px;
     left: 50%;
@@ -50,7 +49,7 @@
     justify-content: space-between; /* logos to edges */
     box-shadow: 0 4px 30px rgba(0,0,0,0.3);
     backdrop-filter: blur(10px);
-    transition: transform 0.9s cubic-bezier(0.25, 0.1, 0.5, 1.5);
+    transition: transform 0.9s cubic-bezier(0.2, 0.1, 0.5, 1.5);
     transition: all 0.5s ease-in-out;
     overflow: hidden;
 }
@@ -78,46 +77,47 @@
   }
   @keyframes bounce-close {
     0% {
-        width: 130px;
+        width: 160px;
     }
     80%{
-      width: 120px;
+      width: 170px;
     }
     90% {
-      width: 120px; 
+      width: 170px; 
     }
     100% {
-      width: 120px; 
+      width: 170px; 
     }
   }
  
   @media screen and (max-width: 740px){
+    
     @keyframes bounce {
       0% {
         width: 450px;
       }
       50% {
-        width: 460px; /* Slight increase */
+        width: 460px;
       }
       75% {
-        width: 440px; /* Slight decrease */
+        width: 440px;
       }
       100% {
-        width: 450px; /* Final position */
+        width: 450px;
       }
     }
     @keyframes bounce-close {
       0% {
-          width: 130px;
+        width: 160px;
       }
       80%{
-        width: 120px;
+        width: 170px;
       }
       90% {
-        width: 120px; 
+        width: 170px; 
       }
       100% {
-        width: 120px; 
+        width: 170px; 
       }
     }
   }
@@ -138,7 +138,7 @@
       }
     }
     @keyframes bounce-close {
-      0% {
+      0%{
           width: 130px;
       }
       80%{
@@ -156,17 +156,18 @@
   /* Nav links centered */
   .nav-links {
     position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 20px;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.s ease 0.6s; /* Added delay */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.s ease 0.6s; /* Added delay */
     color: gray;
   }
   .dynamic-nav-bar:hover .nav-links {
     opacity: 1;
+    transition: all 0.3s linear;
     pointer-events: auto;
   }
   .logo-left img,
