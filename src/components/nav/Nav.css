@@ -22,17 +22,6 @@
     height: 28px;
     
 }
-/* .iland{
-    width: 350px;
-    background: tomato;
-    height: 35px;
-    overflow: hidden;
-    border-radius: 30px;
-} */
-/* .iland{
-    display: flex;
-    justify-content: space-around;
-} */
 .dynamic-nav-bar{
     border: var(--nav-border);
     position: absolute;

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import projcets from '../../data/data.jsx'
 import './Allprojects.css'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import { Link } from 'react-router-dom';
 import SplitText from './SplitText.jsx';
 function Allprojects() {
@@ -36,10 +37,10 @@ function Allprojects() {
                                 project.navLinks.map((link, i) => {
                                   return <li className='li-link' key={i}>
                                     <div className="lik">
-                                    <Link to={project.links[i]} target="_blank">{link}</Link>
-                                    <div className="link-icon">
+                                    <Link to={project.links[i]} target="_blank">{link==='github' ? <GitHubIcon/> : <OpenInNewIcon/>}</Link>
+                                    {/* <div className="link-icon">
                                     <OpenInNewIcon/>
-                                    </div>
+                                    </div> */}
                                     </div>
                                   </li>
                                 })
