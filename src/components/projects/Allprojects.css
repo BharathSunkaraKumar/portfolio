@@ -58,13 +58,20 @@
     margin-top: 5px;
     margin-bottom: 5px;
     color: var(--nav-primary-clr);
+    transition: all 0.3s linear;
 }
 .card:hover .card-title h4{
     color: var(--under-line);
 }
 .card .card-tech{
-    padding: 8px;
-    margin: 8px;
+    width: 250px;
+    overflow: unset;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
 }
 .card .card-tech span{
     background-color: var(--nav-logo);
@@ -75,6 +82,7 @@
     letter-spacing: 0.2em;
     border-radius: 2em;
     text-transform: capitalize; 
+    transition: all 0.3s linear;
 }
 .card:hover span{
     color: dodgerblue;

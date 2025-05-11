@@ -3,6 +3,7 @@ import dark from '../images/dark.png'
 import portfolio from '../images/portfolio.png'
 import todo from '../images/todo.png'
 import pagination from '../images/pagination.png'
+import messageboard from '../images/messageboard.png'
 
 const projects = [
     {
@@ -44,6 +45,14 @@ const projects = [
         image: pagination,
         navLinks: ['Live','github'],
         links: ['https://paggination-react.netlify.app/','https://github.com/BharathSunkaraKumar/pagination']
+    },
+    {
+        id: 6,
+        title: 'express message board',
+        tech: ['html', 'css', 'node', 'express'],
+        image: messageboard,
+        navLinks: ['Live','github'],
+        links: ['https://express-message-board-sk77.onrender.com/','https://github.com/BharathSunkaraKumar/express-message-board']
     },
 ]
 
